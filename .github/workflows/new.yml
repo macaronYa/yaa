@@ -13,9 +13,9 @@ jobs:
           submodules: true
           fetch-depth: 0
       - name: setup hugo
-       uses: peaceiris/actions-hugo@v2
-       with: 
-        - hugo-version:'latest'
+        uses: peaceiris/actions-hugo@v2
+        with: 
+          hugo-version:'latest'
         extended: true
       - name: Build
         run: hugo --minifly
