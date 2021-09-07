@@ -2,11 +2,3 @@ baseURL = 'https://macaronya.github.io/yaa/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"
----
-```c
-int main()
-{
-    printf("hello");
-    return 0;
-}
-```
